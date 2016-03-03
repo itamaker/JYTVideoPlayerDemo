@@ -1,13 +1,13 @@
-# JYTVideoPlayerDemo
+# SunnyVideoPlayer
 
 ###本工程是对系统播放器的封装（AVFundation）
 
 ####1.创建播放器：
 
-通过`JYTVideoController`类创建视频。
+通过`SunnyVideoController`类创建视频。
 
 
-    JYTVideoController * vc = [JYTVideoController 
+    SunnyVideoController * vc = [SunnyVideoController 
                                 videoControllerWithFrame:CGRectZero //播放器大小（zero会充满全屏幕） 
                                 andVideoUrl:@"http://devimages.apple.com/iphone/samples/bipbop/gear4/prog_index.m3u8" //视频地址
                                 andVideoType:DVideoTypeLesson //播放器显示类型
@@ -34,7 +34,7 @@
     #pragma mark 停止播放
     - (void)stopVideo;
 
-####4.视频播放事件监听（建议继承`JYTVideoController`创建一个子类，然后在子类中重写方法监听，并且需要调用`super`方法）
+####4.视频播放事件监听（建议继承`SunnyVideoController`创建一个子类，然后在子类中重写方法监听，并且需要调用`super`方法）
 #####［1］按钮点按事件
     /**点击标题按钮*/
     - (void)clickTitleBtn;
@@ -51,7 +51,7 @@
      *  @param bar     播放工具条，isPlaying属性判断是暂停还是播放。
      *  @param playBtn 播放按钮
      */
-    - (void)videoBottomBar:(JYTVideoBottomBar *)bar clickPlayBtn:(UIButton *)playBtn;
+    - (void)videoBottomBar:(SunnyVideoBottomBar *)bar clickPlayBtn:(UIButton *)playBtn;
 
 #####［2］进度条事件
     #pragma mark - 进度条控制

@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E90C17F1C87CE21007B2CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1631C87CE21007B2CCB /* AppDelegate.m */; };
+		0E90C1801C87CE21007B2CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E90C1641C87CE21007B2CCB /* Assets.xcassets */; };
+		0E90C1811C87CE21007B2CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E90C1651C87CE21007B2CCB /* LaunchScreen.storyboard */; };
+		0E90C1821C87CE21007B2CCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E90C1671C87CE21007B2CCB /* Info.plist */; };
+		0E90C18A1C87CE21007B2CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1761C87CE21007B2CCB /* main.m */; };
+		0E90C18B1C87CE21007B2CCB /* TTVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1781C87CE21007B2CCB /* TTVideoController.m */; };
+		0E90C19E1C87CFA0007B2CCB /* SunnyPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1921C87CFA0007B2CCB /* SunnyPlayerView.m */; };
+		0E90C19F1C87CFA0007B2CCB /* SunnyVideoBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1941C87CFA0007B2CCB /* SunnyVideoBottomBar.m */; };
+		0E90C1A01C87CFA0007B2CCB /* SunnyVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1961C87CFA0007B2CCB /* SunnyVideoController.m */; };
+		0E90C1A11C87CFA0007B2CCB /* SunnyVideoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C1981C87CFA0007B2CCB /* SunnyVideoLoadingView.m */; };
+		0E90C1A21C87CFA0007B2CCB /* SunnyVideoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C19A1C87CFA0007B2CCB /* SunnyVideoSlider.m */; };
+		0E90C1A31C87CFA0007B2CCB /* SunnyVideoTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C19C1C87CFA0007B2CCB /* SunnyVideoTopBar.m */; };
+		0E90C1A41C87CFA0007B2CCB /* VideoImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E90C19D1C87CFA0007B2CCB /* VideoImages.xcassets */; };
+		F7DB522A1BCE20F100FCACD5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52291BCE20F100FCACD5 /* OpenAL.framework */; };
+		F7DB522C1BCE20F800FCACD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB522B1BCE20F800FCACD5 /* CoreGraphics.framework */; };
+		F7DB522E1BCE210400FCACD5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB522D1BCE210400FCACD5 /* OpenGLES.framework */; };
+		F7DB52301BCE210B00FCACD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB522F1BCE210B00FCACD5 /* UIKit.framework */; };
+		F7DB52321BCE211300FCACD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52311BCE211300FCACD5 /* QuartzCore.framework */; };
+		F7DB52341BCE211F00FCACD5 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52331BCE211F00FCACD5 /* libbz2.1.0.tbd */; };
+		F7DB52361BCE212900FCACD5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52351BCE212900FCACD5 /* libz.tbd */; };
+		F7DB52381BCE213100FCACD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52371BCE213100FCACD5 /* AudioToolbox.framework */; };
+		F7DB523A1BCE213F00FCACD5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52391BCE213F00FCACD5 /* Security.framework */; };
+		F7DB523C1BCE214700FCACD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB523B1BCE214600FCACD5 /* Foundation.framework */; };
+		F7DB523E1BCE215C00FCACD5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB523D1BCE215C00FCACD5 /* MobileCoreServices.framework */; };
+		F7DB52401BCE216600FCACD5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB523F1BCE216600FCACD5 /* CFNetwork.framework */; };
+		F7DB52421BCE217000FCACD5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52411BCE217000FCACD5 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E90C1621C87CE21007B2CCB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E90C1631C87CE21007B2CCB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E90C1641C87CE21007B2CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E90C1661C87CE21007B2CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E90C1671C87CE21007B2CCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E90C1761C87CE21007B2CCB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E90C1771C87CE21007B2CCB /* TTVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVideoController.h; sourceTree = "<group>"; };
+		0E90C1781C87CE21007B2CCB /* TTVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVideoController.m; sourceTree = "<group>"; };
+		0E90C1911C87CFA0007B2CCB /* SunnyPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunnyPlayerView.h; sourceTree = "<group>"; };
+		0E90C1921C87CFA0007B2CCB /* SunnyPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunnyPlayerView.m; sourceTree = "<group>"; };
+		0E90C1931C87CFA0007B2CCB /* SunnyVideoBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunnyVideoBottomBar.h; sourceTree = "<group>"; };
+		0E90C1941C87CFA0007B2CCB /* SunnyVideoBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunnyVideoBottomBar.m; sourceTree = "<group>"; };
+		0E90C1951C87CFA0007B2CCB /* SunnyVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunnyVideoController.h; sourceTree = "<group>"; };
+		0E90C1961C87CFA0007B2CCB /* SunnyVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunnyVideoController.m; sourceTree = "<group>"; };
+		0E90C1971C87CFA0007B2CCB /* SunnyVideoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunnyVideoLoadingView.h; sourceTree = "<group>"; };
+		0E90C1981C87CFA0007B2CCB /* SunnyVideoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunnyVideoLoadingView.m; sourceTree = "<group>"; };
+		0E90C1991C87CFA0007B2CCB /* SunnyVideoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunnyVideoSlider.h; sourceTree = "<group>"; };
+		0E90C19A1C87CFA0007B2CCB /* SunnyVideoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunnyVideoSlider.m; sourceTree = "<group>"; };
+		0E90C19B1C87CFA0007B2CCB /* SunnyVideoTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunnyVideoTopBar.h; sourceTree = "<group>"; };
+		0E90C19C1C87CFA0007B2CCB /* SunnyVideoTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunnyVideoTopBar.m; sourceTree = "<group>"; };
+		0E90C19D1C87CFA0007B2CCB /* VideoImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VideoImages.xcassets; sourceTree = "<group>"; };
+		F7DB51CB1BCE078B00FCACD5 /* SunnyVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DB52291BCE20F100FCACD5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		F7DB522B1BCE20F800FCACD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7DB522D1BCE210400FCACD5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F7DB522F1BCE210B00FCACD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7DB52311BCE211300FCACD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7DB52331BCE211F00FCACD5 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		F7DB52351BCE212900FCACD5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F7DB52371BCE213100FCACD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7DB52391BCE213F00FCACD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7DB523B1BCE214600FCACD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7DB523D1BCE215C00FCACD5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7DB523F1BCE216600FCACD5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7DB52411BCE217000FCACD5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7DB51C81BCE078B00FCACD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB52421BCE217000FCACD5 /* SystemConfiguration.framework in Frameworks */,
+				F7DB52401BCE216600FCACD5 /* CFNetwork.framework in Frameworks */,
+				F7DB523E1BCE215C00FCACD5 /* MobileCoreServices.framework in Frameworks */,
+				F7DB523C1BCE214700FCACD5 /* Foundation.framework in Frameworks */,
+				F7DB523A1BCE213F00FCACD5 /* Security.framework in Frameworks */,
+				F7DB52381BCE213100FCACD5 /* AudioToolbox.framework in Frameworks */,
+				F7DB52361BCE212900FCACD5 /* libz.tbd in Frameworks */,
+				F7DB52341BCE211F00FCACD5 /* libbz2.1.0.tbd in Frameworks */,
+				F7DB52321BCE211300FCACD5 /* QuartzCore.framework in Frameworks */,
+				F7DB52301BCE210B00FCACD5 /* UIKit.framework in Frameworks */,
+				F7DB522E1BCE210400FCACD5 /* OpenGLES.framework in Frameworks */,
+				F7DB522C1BCE20F800FCACD5 /* CoreGraphics.framework in Frameworks */,
+				F7DB522A1BCE20F100FCACD5 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E90C1611C87CE21007B2CCB /* SunnyVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0E90C1901C87CFA0007B2CCB /* SunnyVideoPlayer */,
+				0E90C1621C87CE21007B2CCB /* AppDelegate.h */,
+				0E90C1631C87CE21007B2CCB /* AppDelegate.m */,
+				0E90C1641C87CE21007B2CCB /* Assets.xcassets */,
+				0E90C1651C87CE21007B2CCB /* LaunchScreen.storyboard */,
+				0E90C1671C87CE21007B2CCB /* Info.plist */,
+				0E90C1761C87CE21007B2CCB /* main.m */,
+				0E90C1771C87CE21007B2CCB /* TTVideoController.h */,
+				0E90C1781C87CE21007B2CCB /* TTVideoController.m */,
+			);
+			path = SunnyVideoPlayer;
+			sourceTree = "<group>";
+		};
+		0E90C1901C87CFA0007B2CCB /* SunnyVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0E90C1911C87CFA0007B2CCB /* SunnyPlayerView.h */,
+				0E90C1921C87CFA0007B2CCB /* SunnyPlayerView.m */,
+				0E90C1931C87CFA0007B2CCB /* SunnyVideoBottomBar.h */,
+				0E90C1941C87CFA0007B2CCB /* SunnyVideoBottomBar.m */,
+				0E90C1951C87CFA0007B2CCB /* SunnyVideoController.h */,
+				0E90C1961C87CFA0007B2CCB /* SunnyVideoController.m */,
+				0E90C1971C87CFA0007B2CCB /* SunnyVideoLoadingView.h */,
+				0E90C1981C87CFA0007B2CCB /* SunnyVideoLoadingView.m */,
+				0E90C1991C87CFA0007B2CCB /* SunnyVideoSlider.h */,
+				0E90C19A1C87CFA0007B2CCB /* SunnyVideoSlider.m */,
+				0E90C19B1C87CFA0007B2CCB /* SunnyVideoTopBar.h */,
+				0E90C19C1C87CFA0007B2CCB /* SunnyVideoTopBar.m */,
+				0E90C19D1C87CFA0007B2CCB /* VideoImages.xcassets */,
+			);
+			path = SunnyVideoPlayer;
+			sourceTree = "<group>";
+		};
+		F7DB51C21BCE078B00FCACD5 = {
+			isa = PBXGroup;
+			children = (
+				F7DB52411BCE217000FCACD5 /* SystemConfiguration.framework */,
+				F7DB523F1BCE216600FCACD5 /* CFNetwork.framework */,
+				F7DB523D1BCE215C00FCACD5 /* MobileCoreServices.framework */,
+				F7DB523B1BCE214600FCACD5 /* Foundation.framework */,
+				F7DB52391BCE213F00FCACD5 /* Security.framework */,
+				F7DB52371BCE213100FCACD5 /* AudioToolbox.framework */,
+				F7DB52351BCE212900FCACD5 /* libz.tbd */,
+				F7DB52331BCE211F00FCACD5 /* libbz2.1.0.tbd */,
+				F7DB52311BCE211300FCACD5 /* QuartzCore.framework */,
+				F7DB522F1BCE210B00FCACD5 /* UIKit.framework */,
+				F7DB522D1BCE210400FCACD5 /* OpenGLES.framework */,
+				F7DB522B1BCE20F800FCACD5 /* CoreGraphics.framework */,
+				F7DB52291BCE20F100FCACD5 /* OpenAL.framework */,
+				0E90C1611C87CE21007B2CCB /* SunnyVideoPlayer */,
+				F7DB51CC1BCE078B00FCACD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7DB51CC1BCE078B00FCACD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB51CB1BCE078B00FCACD5 /* SunnyVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7DB51CA1BCE078B00FCACD5 /* SunnyVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DB51F81BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "SunnyVideoPlayer" */;
+			buildPhases = (
+				F7DB51C71BCE078B00FCACD5 /* Sources */,
+				F7DB51C81BCE078B00FCACD5 /* Frameworks */,
+				F7DB51C91BCE078B00FCACD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunnyVideoPlayer;
+			productName = JYTVideoPlayerDemo;
+			productReference = F7DB51CB1BCE078B00FCACD5 /* SunnyVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7DB51C31BCE078B00FCACD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = bihongbo;
+				TargetAttributes = {
+					F7DB51CA1BCE078B00FCACD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F7DB51C61BCE078B00FCACD5 /* Build configuration list for PBXProject "SunnyVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7DB51C21BCE078B00FCACD5;
+			productRefGroup = F7DB51CC1BCE078B00FCACD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7DB51CA1BCE078B00FCACD5 /* SunnyVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7DB51C91BCE078B00FCACD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E90C1801C87CE21007B2CCB /* Assets.xcassets in Resources */,
+				0E90C1A41C87CFA0007B2CCB /* VideoImages.xcassets in Resources */,
+				0E90C1811C87CE21007B2CCB /* LaunchScreen.storyboard in Resources */,
+				0E90C1821C87CE21007B2CCB /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7DB51C71BCE078B00FCACD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E90C18B1C87CE21007B2CCB /* TTVideoController.m in Sources */,
+				0E90C1A31C87CFA0007B2CCB /* SunnyVideoTopBar.m in Sources */,
+				0E90C19E1C87CFA0007B2CCB /* SunnyPlayerView.m in Sources */,
+				0E90C17F1C87CE21007B2CCB /* AppDelegate.m in Sources */,
+				0E90C1A01C87CFA0007B2CCB /* SunnyVideoController.m in Sources */,
+				0E90C1A21C87CFA0007B2CCB /* SunnyVideoSlider.m in Sources */,
+				0E90C19F1C87CFA0007B2CCB /* SunnyVideoBottomBar.m in Sources */,
+				0E90C1A11C87CFA0007B2CCB /* SunnyVideoLoadingView.m in Sources */,
+				0E90C18A1C87CE21007B2CCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E90C1651C87CE21007B2CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E90C1661C87CE21007B2CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7DB51F61BCE078C00FCACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7DB51F71BCE078C00FCACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7DB51F91BCE078C00FCACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SunnyVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.SunnyVideoPlayer;
+				PRODUCT_NAME = SunnyVideoPlayer;
+			};
+			name = Debug;
+		};
+		F7DB51FA1BCE078C00FCACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SunnyVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.SunnyVideoPlayer;
+				PRODUCT_NAME = SunnyVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7DB51C61BCE078B00FCACD5 /* Build configuration list for PBXProject "SunnyVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB51F61BCE078C00FCACD5 /* Debug */,
+				F7DB51F71BCE078C00FCACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DB51F81BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "SunnyVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB51F91BCE078C00FCACD5 /* Debug */,
+				F7DB51FA1BCE078C00FCACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7DB51C31BCE078B00FCACD5 /* Project object */;
+}
